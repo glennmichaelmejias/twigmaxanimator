@@ -1,0 +1,237 @@
+body{
+	background-color:#4F81BD;
+	font-family:"Century Gothic";
+	font-weight:lighter;
+	background-origin:border-box;
+}
+close-button{
+	background-image:url(../img/close-normal.png);
+	display:block;
+	position:absolute;
+	margin-left:810px;
+	margin-top:9px;
+	width:20px;
+	height:18px;
+	cursor:pointer;
+}
+close-button:hover{
+	background-image:url(../img/close-hover.png);
+	display:block;
+	position:absolute;
+	margin-left:810px;
+	margin-top:9px;
+	width:20px;
+	height:18px;
+}
+.init-image-download{
+	background-image:url(../img/button-download-hover.jpg);
+}
+.init-image-about{
+	background-image:url(../img/menu-about-active.png);
+}
+.init-image-animations{
+	background-image:url(../img/menu-animations-active.png);
+}
+.init-image-home{
+	background-image:url(../img/menu-home-active.png);
+}
+.init-image-stickfigures{
+	background-image:url(../img/menu-stickfigures-active.png);
+}
+.init-image-tutorials{
+	background-image:url(../img/menu-tutorials-active.png);
+}
+.init-image-blogger{
+	background-image:url(../img/social-blogger-active.jpg);
+}
+.init-image-facebook{
+	background-image:url(../img/social-facebook-active.jpg);
+}
+.init-image-twitter{
+	background-image:url(../img/social-twitter-active.jpg);
+}
+.init-image-youtube{
+	background-image:url(../img/social-youtube-active.jpg);
+}
+a{
+	text-decoration:none;
+}
+a img{
+	border:hidden;
+}
+a:hover{
+	text-decoration:underline;	
+}
+.header{
+	background-image:url(../img/header-background.jpg);
+	width:861px;height:179px;
+	background-repeat:no-repeat;
+}
+.menu{
+	background-image:url(../img/menu-background.jpg);
+	width:861px;height:49px;
+	background-repeat:no-repeat;
+}
+.menu-home{
+	background-image:url(../img/menu-home-normal.png);
+	width:81px;height:29px;
+	background-repeat:no-repeat;
+	margin-top:10px;margin-left:15px;
+	position:absolute;
+}
+.menu-home-active, .menu-home:hover{
+	background-image:url(../img/menu-home-active.png);
+	width:81px;height:29px;
+	background-repeat:no-repeat;
+	margin-top:10px;margin-left:15px;
+	position:absolute;
+}
+.menu-stickfigures{
+	background-image:url(../img/menu-stickfigures-normal.png);
+	width:151px;height:21px;
+	background-repeat:no-repeat;
+	margin-top:10px;margin-left:150px;
+	position:absolute;
+}
+.menu-stickfigures-active, .menu-stickfigures:hover{
+	background-image:url(../img/menu-stickfigures-active.png);
+	width:151px;height:21px;
+	background-repeat:no-repeat;
+	margin-top:10px;margin-left:150px;
+	position:absolute;
+}
+.menu-animations{
+	background-image:url(../img/menu-animations-normal.png);
+	width:151px;height:21px;
+	background-repeat:no-repeat;
+	margin-top:10px;margin-left:343px;
+	position:absolute;
+}
+.menu-animations-active,.menu-animations:hover{
+	background-image:url(../img/menu-animations-active.png);
+	width:151px;height:21px;
+	background-repeat:no-repeat;
+	margin-top:10px;margin-left:343px;
+	position:absolute;
+}
+.menu-tutorials{
+	background-image:url(../img/menu-tutorials-normal.png);
+	width:151px;height:21px;
+	background-repeat:no-repeat;
+	margin-top:10px;margin-left:540px;
+	position:absolute;
+}
+.menu-tutorials-active,.menu-tutorials:hover{
+	background-image:url(../img/menu-tutorials-active.png);
+	width:151px;height:21px;
+	background-repeat:no-repeat;
+	margin-top:10px;margin-left:540px;
+	position:absolute;
+}
+.menu-about{
+	background-image:url(../img/menu-about-normal.png);
+	width:151px;height:21px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:730px;
+	position:absolute;
+}
+.menu-about-active,.menu-about:hover{
+	background-image:url(../img/menu-about-active.png);
+	width:151px;height:21px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:730px;
+	position:absolute;
+}
+.social-facebook{
+	background-image:url(../img/social-facebook-normal.jpg);
+	width:52px;height:49px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:629px;
+	position:absolute;
+}
+.social-facebook:hover{
+	background-image:url(../img/social-facebook-active.jpg);
+	width:52px;height:49px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:629px;
+	position:absolute;
+}
+.social-youtube{
+	background-image:url(../img/social-youtube-normal.jpg);
+	width:52px;height:49px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:680px;
+	position:absolute;
+}
+.social-youtube:hover{
+	background-image:url(../img/social-youtube-active.jpg);
+	width:52px;height:49px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:680px;
+	position:absolute;
+}
+.social-twitter{
+	background-image:url(../img/social-twitter-normal.jpg);
+	width:52px;height:49px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:733px;
+	position:absolute;
+}
+.social-twitter:hover{
+	background-image:url(../img/social-twitter-active.jpg);
+	width:52px;height:49px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:733px;
+	position:absolute;
+}
+.social-blogger{
+	background-image:url(../img/social-blogger-normal.jpg);
+	width:52px;height:49px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:784px;
+	position:absolute;
+}
+.social-blogger:hover{
+	background-image:url(../img/social-blogger-active.jpg);
+	width:52px;height:49px;
+	background-repeat:no-repeat;
+	margin-top:11px;margin-left:784px;
+	position:absolute;
+}
+.contents{
+	width:845px;height:715px;
+	background-color:#FFF;
+}
+.btn-download{
+	background-image:url(../img/button-download.jpg);
+	display:block;
+	position:absolute;
+	width:174px;height:41px;
+	margin-left:476px;margin-top:660px;
+}
+.btn-download:hover{
+	background-image:url(../img/button-download-hover.jpg);
+	display:block;
+	position:absolute;
+	width:174px;height:41px;
+	margin-left:476px;margin-top:660px;
+}
+.footer{
+	margin-top:15px;
+	color:#FFF;
+	width:845px;height:70px;
+	font-size:16px;
+	font-weight:lighter;
+}
+preview-animation-1,preview-animation-2,preview-animation-3,preview-animation-4,preview-animation-5{
+	cursor:pointer;
+	color:#4F81BD;
+}
+preview-animation-1:hover,preview-animation-2:hover,preview-animation-3:hover,preview-animation-4:hover,preview-animation-5:hover{
+	cursor:pointer;
+	color:#4F81BD;
+	text-decoration:underline;
+}
+.footer a{
+	color:#FFF;	
+}
